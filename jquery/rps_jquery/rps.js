@@ -6,8 +6,8 @@ var scissors = false;
 
 $('#rock').click(function(){
 	 $(this).css('border-color','black')
-	 $('#paper').css('border-color','beige')
-	 $('#scissors').css('border-color','beige')
+	 $('#paper').css('border-color','pink')
+	 $('#scissors').css('border-color','pink')
 		game("rock");
 		
 
@@ -17,8 +17,8 @@ $('#rock').click(function(){
 
 $('#paper').click(function(){
 	 $(this).css('border-color','black')
-	 $('#rock').css('border-color','beige')
-	 $('#scissors').css('border-color','beige')
+	 $('#rock').css('border-color','pink')
+	 $('#scissors').css('border-color','pink')
 		
 
 		game("paper");
@@ -27,8 +27,8 @@ $('#paper').click(function(){
 
 $('#scissors').click(function(){
 	 $(this).css('border-color','black')
-	 $('#rock').css('border-color','beige')
-	 $('#paper').css('border-color','beige')
+	 $('#rock').css('border-color','pink')
+	 $('#paper').css('border-color','pink')
 		
 	game("scissors");
 
