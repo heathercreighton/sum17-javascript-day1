@@ -1,0 +1,42 @@
+body {
+background: beige;
+
+}
+
+img {
+	width:200px;
+	height: 150px;
+
+}
+
+
+.container {
+	margin: 300px;
+	text-align: center;
+}
+div {
+	display: inline;
+}
+
+p {
+	font-family: 'Architects Daughter', cursive;	
+	text-align: center;
+}
+
+#result {
+	font-weight: bolder;
+	font-size: 60px;
+	color: red;
+}
+.title{ 
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+ }
+
+#rock, #paper, #scissors{
+border-color: beige;
+border-style: solid;
+border-width: 10px;
+
+}
